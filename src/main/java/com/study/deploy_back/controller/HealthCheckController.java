@@ -14,7 +14,7 @@ public class HealthCheckController {
     @Value("${spring.profiles.active}")
     private String env;
 
-    @Value("${server_port}")
+    @Value("${server.port}")
     private String port;
 
     @GetMapping("/health/check")
