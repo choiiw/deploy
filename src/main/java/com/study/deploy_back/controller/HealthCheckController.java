@@ -22,6 +22,6 @@ public class HealthCheckController {
         Map<String, Object> response = new HashMap<>();
         response.put("env", env);
         response.put("port", port);
-        return ResponseEntity.ok().body(null);
+        return ResponseEntity.ok().body(response);
     }
 }
