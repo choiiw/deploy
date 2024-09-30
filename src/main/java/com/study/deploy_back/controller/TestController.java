@@ -15,6 +15,6 @@ public class TestController {
     @CrossOrigin
     @GetMapping("/test")
     public ResponseEntity<?> test() {
-        return ResponseEntity.ok(clientAddress + "테스트!!");
+        return ResponseEntity.ok(clientAddress + "테스트이름!!");
     }
 }
