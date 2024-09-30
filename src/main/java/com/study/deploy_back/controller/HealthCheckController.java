@@ -13,7 +13,6 @@ public class HealthCheckController {
 
     @Value("${spring.profiles.active}")
     private String env;
-
     @Value("${server.port}")
     private String port;
 
